@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <meta charset="UTF-8">
+    <title>BuyList</title>
+</head>
+<meta name="author" content=”Karina Chernyavskaya”>
+
+<body>
+<div >
+    <div class="container">
+        <div class="buys">
+            <div class="input">
+                <div class="form">
+                    <input autocomplete="off" id="input" placeholder="Назва товару"/>
+                    <button class="add_product">Додати</button>
+                    <form autocomplete="off">
+                </div>
+            </div>
+            <div class="product">
+                <div class="text-product">Помідори</div>
+                <div class="controls">
+                    <button class="button delete">-</button>
+                    <span class="counts">1</span>
+                    <button class="button add">+</button>
+                </div>
+                <div class="state">
+                    <div class="controls-state">
+                        <button class="bought">Куплено</button>
+                        <button class="remove">х</button>
+                        </div>
+                </div>
+            </div>
+            <div class="product"><span class="text-product">Сир</span>
+                <div class="controls" >
+                    <button class="button delete">-</button>
+                    <span class="counts">1</span>
+                    <button class="button add" title="Tool">+</button>
+                </div>
+                <div class="state">
+                    <div class="controls-state">
+                        <div class="controls-state">
+                            <button class="bought">Куплено</button>
+                            <button class="remove">х</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <span class="text-product">Печиво</span>
+                <div class="controls">
+                    <button class="button delete">-</button>
+                    <span class="counts">1</span>
+                    <button class="button add">+</button>
+                </div>
+                <div class="state">
+                    <div class="controls-state">
+                        <button class="bought">Куплено</button>
+
+                        <button class="remove" >х</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buy-list">
+            <div class="border_btm"><h3>Залишилось</h3></div>
+            <div class="section-rest border_btm">
+                <div class="section-row">
+                <div class="buy-product">Помідори<span class="counts-bought">1</span></div>
+                <div class="buy-product">Сир<span class="counts-bought">1</span></div>
+                <div class="buy-product">Печиво<span class="counts-bought">1</span></div>
+                </div>
+                <br/>
+            </div>
+            <div class="border_btm"><h3>Куплено</h3></div>
+            <hr>
+            <div class="basket">
+                <div class="section-row">
+                	<br/>
+                </div>
+                
+            </div>
+        </div>
+        <br/>
+    </div>   
+</body>
+</html>
